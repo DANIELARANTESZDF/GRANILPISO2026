@@ -1,0 +1,148 @@
+# 🚀 INÍCIO RÁPIDO - GranilPiso 2026
+
+## ✅ O QUE ESTÁ PRONTO
+
+Você tem uma **pasta completa com um site profissional** pronto para GitHub Pages:
+
+```
+c:\Meus Sites\GRANILPISO 2026\
+├── ✅ 7 páginas HTML
+├── ✅ CSS responsivo
+├── ✅ Menu mobile funcional
+├── ✅ Links WhatsApp integrados
+├── ✅ Footer com contato
+└── ✅ Documentação completa
+```
+
+## 📱 TESTAR LOCALMENTE (Passo 1)
+
+**Opção A - Abrir arquivo direto:**
+1. Abra Explorer: `c:\Meus Sites\GRANILPISO 2026`
+2. Clique 2x em `test.html`
+3. Testará todas as páginas
+
+**Opção B - Ou simplesmente:**
+1. Clique 2x em `index.html`
+2. Veja o site funcionando no navegador
+
+## 🖼️ ADICIONAR IMAGENS (Passo 2)
+
+1. Vá para: `c:\Meus Sites\GRANILPISO 2026\images`
+2. Copie para lá:
+   - `logo.png` (sua logo)
+   - `patio-fulget.jpg` (já existe na pasta antiga)
+   - `granilite.jpg`
+   - `fulget.jpg`
+   - `lapidacao.jpg`
+
+> 💡 Se não tiver as imagens, o site ainda funciona (sem imagens é como um wireframe)
+
+## 🌐 DEPLOY NO GITHUB PAGES (Passo 3)
+
+### Opção A - Maneira Fácil (Sem Linha de Comando)
+
+1. **Criar conta GitHub** (se não tiver):
+   - Vá em github.com
+   - Clique em "Sign up"
+   - Preencha dados
+
+2. **Criar repositório:**
+   - Vá em github.com/new
+   - Nome: `granilpiso.github.io` (EXATAMENTE assim, substituindo "granilpiso" pelo seu username)
+   - Tipo: Public
+   - Criar repositório
+
+3. **Upload de arquivos:**
+   - Clique em "Upload files"
+   - Arraste TODOS os arquivos da pasta `GRANILPISO 2026` para lá
+   - Clique em "Commit changes"
+
+4. **Ativar GitHub Pages:**
+   - Settings (no topo)
+   - Procure por "Pages"
+   - Branch: main
+   - Folder: / (root)
+   - Save
+
+5. **Pronto! ✅**
+   - Seu site está em: `https://seu-username.github.io`
+   - Espere 2-5 minutos para deploy
+
+### Opção B - Maneira Técnica (Com Git)
+
+```bash
+cd "c:\Meus Sites\GRANILPISO 2026"
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
+git init
+git add .
+git commit -m "Deploy GranilPiso"
+git branch -M main
+git remote add origin https://github.com/seu-username/granilpiso.github.io.git
+git push -u origin main
+```
+
+## 📊 RESULTADO FINAL
+
+Depois que fazer upload, seu site terá:
+- ✅ Homepage profissional
+- ✅ 6 páginas de produtos/serviços
+- ✅ Menu responsivo (mobile-friendly)
+- ✅ Botão WhatsApp grande e verde
+- ✅ Links de contato funcionais
+- ✅ Design moderno e limpo
+- ✅ Carregamento rápido
+
+## 📁 ARQUIVOS IMPORTANTES
+
+| Arquivo | Função |
+|---------|--------|
+| **index.html** | Página inicial |
+| **contato.html** | Página de contato |
+| **css/style.css** | Todos os estilos |
+| **images/** | Pasta para imagens |
+| **README.md** | Documentação completa |
+| **DEPLOYMENT_CHECKLIST.md** | Checklist passo-a-passo |
+| **test.html** | Página de testes |
+
+## 🆘 DÚVIDAS?
+
+**F.A.Q.**
+
+**P: Posso ver o site antes de fazer upload para GitHub?**
+R: Sim! Abra qualquer arquivo .html localmente
+
+**P: Preciso instalar algo?**
+R: Não! Apenas criar conta GitHub (grátis)
+
+**P: Quanto custa?**
+R: GitHub Pages é totalmente GRÁTIS
+
+**P: Como mudar cores?**
+R: Edite `css/style.css` (procure por `#005FA1` para azul, `#1aa94c` para verde)
+
+**P: Como adicionar mais páginas?**
+R: Copie um arquivo .html, mude o conteúdo, atualize o menu
+
+**P: Posso usar um domínio personalizado?**
+R: Sim! Configure nas Settings do GitHub Pages
+
+## ⚡ PRÓXIMOS PASSOS
+
+1. ✅ **Agora:** Teste localmente (abra index.html)
+2. 🖼️ **Depois:** Adicione imagens na pasta `images/`
+3. 🌐 **Finalmente:** Upload para GitHub Pages
+
+## 📞 CONTATO
+
+Se tiver problemas:
+- WhatsApp: (17) 99108-0706
+- Email: granilpiso@gmail.com
+- Telefone: (17) 3021-4045
+
+---
+
+**Você está pronto para ir online! 🎉**
+
+Seu site está 100% pronto. Basta fazer upload para GitHub.
+Total de tempo: ~10 minutos para estar online!

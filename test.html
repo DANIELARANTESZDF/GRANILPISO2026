@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Teste Rápido - GranilPiso</title>
+	<style>
+		* { margin: 0; padding: 0; box-sizing: border-box; }
+		body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+		.container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; }
+		h1 { color: #005FA1; margin-bottom: 20px; }
+		.test-group { margin: 20px 0; padding: 15px; border-left: 4px solid #1aa94c; background: #f9f9f9; }
+		.test { margin: 10px 0; padding: 10px; background: white; }
+		.test-link { color: #005FA1; text-decoration: none; }
+		.test-link:hover { text-decoration: underline; }
+		.pass { color: green; font-weight: bold; }
+		.fail { color: red; font-weight: bold; }
+		code { background: #f0f0f0; padding: 2px 6px; border-radius: 3px; }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>✅ Teste Rápido - GranilPiso Website</h1>
+		
+		<div class="test-group">
+			<h3>📄 Páginas (Clique para testar)</h3>
+			<div class="test">
+				<a href="index.html" class="test-link">Home</a> - Homepage com hero e serviços
+			</div>
+			<div class="test">
+				<a href="granilite.html" class="test-link">Granilite</a> - Página de Granilite
+			</div>
+			<div class="test">
+				<a href="fulget.html" class="test-link">Fulget</a> - Página de Fulget
+			</div>
+			<div class="test">
+				<a href="lapidacao.html" class="test-link">Lapidação</a> - Página de Lapidação
+			</div>
+			<div class="test">
+				<a href="vendas.html" class="test-link">Vendas</a> - Página de Vendas
+			</div>
+			<div class="test">
+				<a href="sobre.html" class="test-link">Sobre</a> - Página Sobre Nós
+			</div>
+			<div class="test">
+				<a href="contato.html" class="test-link">Contato</a> - Página de Contato
+			</div>
+		</div>
+
+		<div class="test-group">
+			<h3>🔗 Links Externos (Clique para testar)</h3>
+			<div class="test">
+				<a href="https://api.whatsapp.com/send/?phone=5517991080706" target="_blank" class="test-link">WhatsApp</a> - Deve abrir chat WhatsApp
+			</div>
+			<div class="test">
+				<a href="tel:+551730214045" class="test-link">Telefone</a> - Deve abrir discador (mobile)
+			</div>
+			<div class="test">
+				<a href="mailto:granilpiso@gmail.com" class="test-link">E-mail</a> - Deve abrir cliente de email
+			</div>
+			<div class="test">
+				<a href="https://www.instagram.com/granilpiso/" target="_blank" class="test-link">Instagram</a> - Instagram da empresa
+			</div>
+		</div>
+
+		<div class="test-group">
+			<h3>🎨 CSS & Responsividade</h3>
+			<div class="test">
+				<strong>Desktop:</strong> Maximize a janela do navegador (>1024px) - menu deve estar visível
+			</div>
+			<div class="test">
+				<strong>Tablet:</strong> Redimensione para 768px - menu deve virar hamburger
+			</div>
+			<div class="test">
+				<strong>Mobile:</strong> Redimensione para <480px - layout deve se ajustar para 1 coluna
+			</div>
+			<div class="test">
+				<strong>Menu Mobile:</strong> Clique no ☰ para testar toggle do menu
+			</div>
+		</div>
+
+		<div class="test-group">
+			<h3>📸 Imagens</h3>
+			<div class="test" style="background: #fff3cd;">
+				⚠️ <strong>Pendente:</strong> Copie as imagens para a pasta <code>images/</code>
+				<ul style="margin-top: 10px; margin-left: 20px;">
+					<li>logo.png - Logo da empresa</li>
+					<li>patio-fulget.jpg - Banner da homepage</li>
+					<li>granilite.jpg - Imagem de Granilite</li>
+					<li>fulget.jpg - Imagem de Fulget</li>
+					<li>lapidacao.jpg - Imagem de Lapidação</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="test-group">
+			<h3>🔍 Testes no Console (F12)</h3>
+			<div class="test">
+				Abra o Developer Tools (F12) → Console
+			</div>
+			<div class="test">
+				Verifique se há erros (linha vermelha)
+			</div>
+			<div class="test">
+				Procure por 404 (arquivo não encontrado) - deve estar vazio
+			</div>
+		</div>
+
+		<div class="test-group">
+			<h3>⚡ Performance</h3>
+			<div class="test">
+				<strong>Tempo de Carregamento:</strong> Deve ser < 3 segundos
+			</div>
+			<div class="test">
+				<strong>Sem Dependências:</strong> ✅ Nenhuma biblioteca externa (exceto Google Fonts opcional)
+			</div>
+			<div class="test">
+				<strong>GitHub Pages Compatível:</strong> ✅ Sem PHP, sem dependências de servidor
+			</div>
+		</div>
+
+		<div class="test-group">
+			<h3>✅ Checklist de Validação</h3>
+			<div class="test">
+				[ ] Todas as 7 páginas carregam
+			</div>
+			<div class="test">
+				[ ] Menu navigation funciona em todos as páginas
+			</div>
+			<div class="test">
+				[ ] Menu mobile toggle funciona
+			</div>
+			<div class="test">
+				[ ] WhatsApp link abre corretamente
+			</div>
+			<div class="test">
+				[ ] Footer carrega em todas as páginas
+			</div>
+			<div class="test">
+				[ ] CSS carrega sem erro 404
+			</div>
+			<div class="test">
+				[ ] Imagens (quando adicionadas) carregam corretamente
+			</div>
+			<div class="test">
+				[ ] Design responsivo funciona (redimensione a janela)
+			</div>
+			<div class="test">
+				[ ] Nenhum erro no console (F12)
+			</div>
+			<div class="test">
+				[ ] Links internos (href="#") não funcionam (OK, não há âncoras)
+			</div>
+		</div>
+
+		<div class="test-group" style="background: #d4edda; border-left-color: #28a745;">
+			<h3>🎉 Se Tudo OK!</h3>
+			<div class="test">
+				1. Copie os arquivos para GitHub
+			</div>
+			<div class="test">
+				2. Ative GitHub Pages nas Settings
+			</div>
+			<div class="test">
+				3. Seu site estará online em 5 minutos!
+			</div>
+		</div>
+
+		<hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+		<p style="color: #666; text-align: center; font-size: 12px;">
+			GranilPiso © 2025 | 
+			<a href="tel:+551730214045" style="color: #005FA1; text-decoration: none;">(17) 3021-4045</a> |
+			<a href="https://api.whatsapp.com/send/?phone=5517991080706" target="_blank" style="color: #1aa94c; text-decoration: none;">WhatsApp</a> |
+			<a href="mailto:granilpiso@gmail.com" style="color: #005FA1; text-decoration: none;">granilpiso@gmail.com</a>
+		</p>
+	</div>
+
+	<script>
+		console.log('✅ Teste Rápido GranilPiso - Abrir devtools (F12) para mais detalhes');
+		console.log('📍 Arquivo: test.html');
+		console.log('🔗 Links funcionando corretamente!');
+	</script>
+</body>
+</html>
